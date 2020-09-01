@@ -1,0 +1,24 @@
+.content {
+  padding: 40px 0;
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    margin: 40px 0 30px 0;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .flex-start {
+    display: flex;
+    justify-content: flex-start;
+
+    flex-wrap: wrap;
+  }
+}

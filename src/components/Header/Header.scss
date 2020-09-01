@@ -1,0 +1,47 @@
+.header {
+  padding: 30px 0;
+  border-bottom: 1px solid #f7f7f7;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+
+    h2 {
+      margin-left: 20px;
+    }
+  }
+  &__cart {
+    font-weight: bold;
+    font-size: 16px;
+
+    a {
+      display: flex;
+      align-items: center;
+      color: #fff;
+      background: #e34d4d;
+      border-radius: 30px;
+      padding: 12px 25px;
+      transition: all ease 0.3s;
+      &:hover {
+        background: darken(#d64a4a, 5%);
+      }
+      svg {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .button__delimiter {
+    width: 1px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.25);
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+}

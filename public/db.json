@@ -1,0 +1,101 @@
+{
+  "comix": [
+    {
+      "id": 0,
+      "imageUrl": "https://www.bookvoed.ru/files/1836/40/06/30/0.png",
+      "name": "Рик и Морти. Полное издание. Том 1",
+      "price": 1090,
+      "category": 3,
+      "rating": 5
+    },
+
+    {
+      "id": 1,
+      "imageUrl": "https://www.bookvoed.ru/files/1836/39/46/46/3.jpeg",
+      "name": "Атака на Титанов. Выбор без сожалений. Книги 1 и 2",
+      "price": 522,
+      "category": 2,
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://www.bookvoed.ru/files/1836/79/78/75/2.jpg",
+      "name": "Справедливость. Абсолютное издание",
+      "price": 1665,
+      "category": 1,
+      "rating": 4
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://www.bookvoed.ru/files/1836/51/39/24/8.jpeg",
+      "name": "Питер Паркер: Поразительный Человек-Паук",
+      "price": 448,
+      "category": 0,
+      "rating": 4
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://www.bookvoed.ru/files/1836/42/59/90/5.png",
+      "name": "Человек-Паук / Дэдпул. Том 1. Ну разве не бромантично?!",
+      "price": 404,
+      "category": 0,
+      "rating": 4
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://www.bookvoed.ru/files/1836/55/92/12/5.jpg",
+      "name": "Вселенная DC. Rebirth. Бэтмен/Флэш. Значок (Бэтмен-версия)",
+      "price": 1000,
+      "category": 1,
+      "rating": 4
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://www.bookvoed.ru/files/1836/44/69/42/0.png",
+      "name": "Death Note. Black Edition. Книга 2: манга",
+      "price": 700,
+      "category": 2,
+      "rating": 5
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://www.bookvoed.ru/files/1836/64/30/54/7.jpeg",
+      "name": "Overwatch: Антология. Том 1 : графический роман",
+      "price": 753,
+      "category": 3,
+      "rating": 3
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://www.bookvoed.ru/files/1836/53/47/17/8.jpeg",
+      "name": "Вселенная DC. Rebirth. Флэш. Книга 1. Молния бьет дважды",
+      "price": 585,
+      "category": 1,
+      "rating": 5
+    },
+    {
+      "id": 9,
+      "imageUrl": "https://www.bookvoed.ru/files/1836/63/10/75/9.jpeg",
+      "name": "Шерлок. Этюд в розовых тонах (илл. Jay)",
+      "price": 785,
+      "category": 3,
+      "rating": 5
+    },
+    {
+      "id": 10,
+      "imageUrl": "https://www.bookvoed.ru/files/1836/25/46/25/5.jpg",
+      "name": "V — значит Vендетта (V - значит Вендетта)",
+      "price": 1406,
+      "category": 2,
+      "rating": 5
+    },
+    {
+      "id": 11,
+      "imageUrl": "https://www.bookvoed.ru/files/1836/45/26/84/5.jpeg",
+      "name": "Стэн Ли. Создатель великой вселенной Marvel  ",
+      "price": 589,
+      "category": 0,
+      "rating": 5
+    }
+  ]
+}
