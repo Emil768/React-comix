@@ -14,9 +14,9 @@ export let fetchComix = (category, sortBy, order) => (dispatch) => {
   dispatch(setLoaded(false));
   axios
     .get(
-      `http://localhost:3001/comix?${
-        category !== null ? `category=${category}` : ""
-      }&_sort=${sortBy.type}&_order=${order}`
+      `/comix?${category !== null ? `category=${category}` : ""}&_sort=${
+        sortBy.type
+      }&_order=${order}`
     )
     .then((resp) => dispatch(setComix(resp.data)));
 };
