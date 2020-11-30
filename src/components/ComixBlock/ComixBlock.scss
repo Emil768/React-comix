@@ -50,3 +50,13 @@
     }
   }
 }
+
+//media
+
+@media (max-width: 666px) {
+  .comix__block {
+    img {
+      height: auto;
+    }
+  }
+}
