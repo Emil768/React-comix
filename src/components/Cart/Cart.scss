@@ -203,4 +203,36 @@
 .container--cart {
   max-width: 820px;
   margin: 60px auto;
+  padding: 0 15px;
+}
+
+//media
+
+@media (max-width: 648px) {
+  .cart {
+    &-empty {
+      width: 100%;
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .cart {
+    &-empty {
+      width: 100%;
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+  .btn-back {
+    padding: 16px 0;
+    font-size: 14px;
+  }
+  .btn-empty {
+    width: 100%;
+  }
 }

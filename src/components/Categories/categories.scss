@@ -27,3 +27,22 @@
     }
   }
 }
+
+//media
+
+@media (max-width: 980px) {
+  .categories {
+  }
+  .mobile-oveflow {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 748px) {
+  .categories {
+    overflow-x: scroll;
+  }
+  .mobile-oveflow {
+    width: 700px;
+  }
+}

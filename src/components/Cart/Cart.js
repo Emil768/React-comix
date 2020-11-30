@@ -160,7 +160,7 @@ function Cart() {
 
                 <span>Вернуться назад</span>
               </Link>
-              <a className="btn-pay" href="#">
+              <a className="btn-pay" href="/#">
                 <span>Оплатить сейчас</span>
               </a>
             </div>

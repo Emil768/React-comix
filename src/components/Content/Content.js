@@ -29,12 +29,15 @@ function Content() {
   //Получаем комиксы
   useEffect(() => {
     dispatch(fetchComix(category, sortBy, sortBy.order));
-  }, [category, sortBy]);
+  }, [category, sortBy, dispatch]);
 
   //Получам индекс сортировки в диспатч
-  let onSelectCategory = useCallback((index) => {
-    dispatch(setCategory(index));
-  }, []);
+  let onSelectCategory = useCallback(
+    (index) => {
+      dispatch(setCategory(index));
+    },
+    [dispatch]
+  );
 
   let onClickSortType = (type) => {
     dispatch(setSortBy(type));

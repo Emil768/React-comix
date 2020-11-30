@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
   }
 
   &__title {
@@ -20,5 +21,18 @@
     justify-content: flex-start;
 
     flex-wrap: wrap;
+  }
+}
+
+//media
+
+@media (max-width: 980px) {
+  .content {
+    &__items {
+      justify-content: space-around;
+    }
+    .flex-start {
+      justify-content: space-around;
+    }
   }
 }
