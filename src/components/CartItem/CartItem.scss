@@ -1,0 +1,131 @@
+.cart__item {
+  padding-top: 30px;
+  border-top: 1px solid #f4f4f4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &-img {
+    margin-right: 20px;
+    img {
+      width: 89px;
+      height: 123px;
+    }
+  }
+
+  &-info {
+    display: flex;
+    align-items: center;
+
+    width: 50%;
+  }
+  &-counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 34%;
+  }
+  &-count {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    b {
+      font-size: 22px;
+      margin: 0 10px 0 10px;
+    }
+
+    .btn-count {
+      border: 2px solid #e34d4d;
+      transition: all ease 0.2s;
+
+      &:hover {
+        background: #e34d4d;
+        cursor: pointer;
+        svg {
+          path {
+            fill: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  &-price {
+    font-size: 22px;
+  }
+  &-close {
+    .btn-close {
+      border: 2px solid #d7d7d7;
+      transition: all ease 0.2s;
+
+      &:hover {
+        background: #000;
+        border-color: #000;
+        cursor: pointer;
+        svg {
+          path {
+            fill: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+//media
+
+@media (max-width: 762px) {
+  .cart__item {
+    &-counter {
+      width: 40%;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .cart__item {
+    &-counter {
+      width: 45%;
+    }
+    &-info {
+      h3 {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .cart__item {
+    flex-direction: column;
+    &-counter {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    &-info {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media (max-width: 362px) {
+  .cart__item {
+    &-info {
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+    }
+    &-counter {
+      flex-direction: column;
+    }
+    &-count {
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+    &-price {
+      margin-bottom: 10px;
+    }
+  }
+}

@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
   &__title {
     font-size: 32px;
@@ -44,82 +45,21 @@
     margin-top: 40px;
   }
 
-  &__item {
-    padding-top: 30px;
-    border-top: 1px solid #f4f4f4;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    &-img {
-      img {
-        width: 89px;
-        height: 123px;
-      }
-    }
-
-    &-info {
-      width: 40%;
-    }
-    &-count {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 13%;
-
-      b {
-        font-size: 22px;
-      }
-
-      .btn-count {
-        border: 2px solid #e34d4d;
-        transition: all ease 0.2s;
-
-        &:hover {
-          background: #e34d4d;
-          cursor: pointer;
-          svg {
-            path {
-              fill: #fff;
-            }
-          }
-        }
-      }
-    }
-
-    &-price {
-      font-size: 22px;
-    }
-    &-close {
-      .btn-close {
-        border: 2px solid #d7d7d7;
-        transition: all ease 0.2s;
-
-        &:hover {
-          background: #000;
-          border-color: #000;
-          cursor: pointer;
-          svg {
-            path {
-              fill: #fff;
-            }
-          }
-        }
-      }
-    }
-  }
   &__bottom {
     font-size: 22px;
     margin: 50px 0;
     &-details {
       display: flex;
       justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
     }
     &-buttons {
       margin-top: 40px;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap;
     }
   }
 
@@ -219,8 +159,41 @@
   }
 }
 
+@media (max-width: 567px) {
+  .cart {
+    &__bottom {
+      &-buttons {
+        flex-direction: column-reverse;
+        justify-content: center;
+      }
+      &-details {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+      }
+    }
+    .btn-pay {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media (max-width: 475px) {
+  .cart {
+    &__title {
+      margin-bottom: 10px;
+    }
+    &__top {
+      justify-content: center;
+    }
+  }
+}
+
 @media (max-width: 400px) {
   .cart {
+    &__bottom {
+      font-size: 18px;
+    }
     &-empty {
       width: 100%;
       p {
@@ -228,11 +201,24 @@
       }
     }
   }
-  .btn-back {
-    padding: 16px 0;
-    font-size: 14px;
+}
+
+@media (max-width: 362px) {
+  .cart__iem-info {
+    h3 {
+      font-size: 14px;
+    }
   }
-  .btn-empty {
+  .btn-back {
+    font-size: 14px;
     width: 100%;
+    text-align: center;
+    padding: 16px;
+  }
+  .btn-pay {
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    padding: 16px;
   }
 }
