@@ -36,7 +36,6 @@ function Cart() {
     dispatch(minusComixCart(id));
   };
 
-  console.log(totalCount ? "да" : "нет");
   return (
     <div className="container--cart">
       {totalCount ? (
